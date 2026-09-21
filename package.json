@@ -1,0 +1,12 @@
+{
+  "name": "taskup-mongo-practica-local",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Práctica completa de MongoDB para ejecutar y editar localmente",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs",
+    "check": "node --check app.js && node --check engine.js && node --check questions.js && node --check extra-questions.js && node --check server.mjs"
+  }
+}

@@ -1,0 +1,6 @@
+.builder label{display:block;margin:14px 0 0;font-size:13px;font-weight:600;color:#496461}
+.builder select{display:block;width:100%;margin-top:6px;min-height:43px;padding:9px 34px 9px 10px;border:1px solid #ccd9d8;border-radius:7px;background:#fff;color:var(--ink)}
+.builder select:focus-visible{outline:3px solid #57a39a;outline-offset:2px}
+.builder .available{margin:13px 0 0;color:var(--muted);font-size:12px;line-height:1.45}
+.question-grid{max-height:312px;overflow:auto;padding:2px}
+@media(max-width:760px){.question-grid{max-height:230px}.builder{order:-1}}
